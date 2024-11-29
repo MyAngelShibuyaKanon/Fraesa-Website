@@ -217,28 +217,27 @@ a:visited{
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
-    gap: 1rem;
     row-gap: 3rem;
 
-    padding: 5rem;
+    padding: 3rem 1rem;
 
     background-color: #ecf2f6;
 }
 
 .infoBox{
     min-width: 20%;
-    min-height: 17rem;
-    
+    min-height: 13rem;
+    font-weight: 100;
+    line-height: 1.5rem;
     flex: 0 1 30%;
 
     border: 2px solid #0379C7;
     background-color: whitesmoke;
-    color:#0379C7;
+    color:black;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
 }
 
 .infoBox:hover{  
@@ -248,51 +247,12 @@ a:visited{
 }
 
 .infoBox h3{
-    padding: 1rem;
+    padding: 2rem 0rem 1rem;
+    font-weight: 400;
 }
 
 .infoBox p{
-    padding: 0vh 3vw;
-}
-
-.button2{
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-
-    display: block;
-
-    background-color: #0379C7;
-    border: 2px solid #0379C7;
-    color: whitesmoke;
-    border-radius: 12px;
-
-    padding: 8px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-
-    align-self: flex-start;
-}
-
-.infoBox:hover .button2{
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-
-    display: block;
-
-    background-color: whitesmoke;
-    border: 2px solid #0379C7;
-    color: #0379C7;
-    border-radius: 12px;
-
-    padding: 8px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-
-    align-self: flex-start;
+    padding: 0vh 3vw 3vh;
 }
 
 footer{
@@ -361,14 +321,13 @@ footer h1{
         flex-flow: wrap;
         gap: 1rem;
         row-gap: 3rem;
-        padding: 1rem;
+        padding: 2rem 1rem;
     }
 
     .infoBox{
         width: 720px;
-        min-height: 30vh;
         border: 2px solid #0379C7;
-        flex: 0 1 100%;;
+        flex: 0 1 100%;
         
     }
 }
@@ -379,7 +338,14 @@ footer h1{
         line-height: 3rem;
     }
 
-    .infoBox{
-        min-height: 25rem;
+    .solutionsGrid{
+        row-gap: 3rem;
+        padding: 5rem;
     }
+
+    .infoBox{
+        gap: 3rem;
+        line-height: 3rem;
+    }
+
 }
