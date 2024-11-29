@@ -151,6 +151,7 @@ a:visited{
     box-sizing: border-box;
 }
 .col1{
+    padding: 1rem 0rem;
     display: flex;
     position: relative;
     
