@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    user-select: none;
 }
 
 html{   
@@ -151,14 +151,17 @@ a:visited{
     box-sizing: border-box;
 }
 .col1{
+    display: flex;
     position: relative;
     
     animation: fadeInRight 1s;
 
-    padding: 1rem;
+    justify-content: space-between;
 
     flex-direction: column;
     column-gap: 3rem;
+    row-gap: 1rem;
+    
 }
 .col2{
     width: 100%;
